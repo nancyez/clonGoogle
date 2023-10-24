@@ -1,0 +1,143 @@
+body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffffff;
+        }
+
+        header {
+            background-color: #fff;
+            /*box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);*/
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .nav-right-section {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-right-section li {
+            margin-right: 10px;
+        }
+
+        .nav-right-section ul{
+            padding:0 0 0 90;
+        }
+
+        .nav-right-section a {
+            text-decoration: none;
+            color: #656565;
+        }
+
+        .nav-right-section img{
+            border-radius: 80%;
+            width: 12%;
+        }
+
+        .menu-icon{
+            background-image: url('https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png');
+            width: 25px;
+            height: 25px;
+            background-size:contain ;
+
+        }
+
+        .main-logo {
+            text-align: center;
+            padding: 150px 0 7px 0;
+        }
+
+        .main-logo img {
+            max-width: 272px;
+        }
+
+        .main-input {
+            display: flex;
+            justify-content: center;
+        }
+
+        .main-input-container {
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .search-icon {
+            background: url('https://seekicon.com/free-icon-download/search_20.svg') no-repeat;
+            width: 16px;
+            height: 16px;
+        }
+
+        input[type="text"] {
+            border: none;
+            outline: none;
+            flex: 1;
+            padding: 0 10px;
+        }
+
+        .micro-icon {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png') no-repeat;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+        }
+
+        .cam-icon {
+            background: url('https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg') no-repeat;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+        }
+
+        .main-buttons {
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+        }
+
+        button {
+            background-color:#4285f4;
+            border: none;
+            border-radius: 24px;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+
+        footer {
+            background-color: #f2f2f2;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            text-align: center;
+            padding: 20px 0;
+            border-top: 1px solid #e4e4e4;
+        }
+        
+        .footer-location {
+            display: block;
+            color: #656565;
+        }
+        
+        footer ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        
+        footer ul li {
+            margin: 0 10px;
+        }
+        
+        footer ul li a {
+            color: #656565;
+            text-decoration: none;
+        }
